@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Forecast</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=search" />
+     </link>
+</head>
+
+<body>
+     <main>
+          
+          <div class="container">
+               <div class="nav">
+                    <input type="text" class="srch">
+                    <button class="btn">
+                         <span class="material-symbols-outlined"> search</span>
+                    </button>
+               </div>
+               <div class="main-container">
+                   
+                    <div class="content">
+                         <div class=report>
+                              <h3>Local Weather Report</h3>
+                              <div class="img"> <img src="suuny.png" alt="" class="icon"></div>
+                              <div class="dy">
+                                   <h1 class="day"></h1>
+                                   <p class="cur-dy">Sunny</p>
+                                   <p class="cur-dy" id="location">Japan</p>
+                              </div>
+
+                              <div class="curr-temp">
+                                   <span class="temp" id="temp"> 22°C</span>
+                                   <span class="temp-f" id="temp-f"> 22.0°F
+                                   </span>
+                              </div>
+
+                              <div class="hum">
+                                   <span class="temp " id="humidity"> Humidity : 10%</span>
+                                   <span class="temp-f" id="wind"> Wind : 10KM/HR</span>
+                              </div>
+
+
+                         </div>
+                         <div class=for-report>
+                              <h3>Sea Forecast Report</h3>
+                              <div class="sea-report">
+                                   <div><span class="sea-rep">SEA LEVEL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             <span id="sea1" class="ramu"></span></span></div>
+                                   <div><span class="sea-rep">WIND GUSTS (KNOTS) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;
+                                             <nbsp></nbsp>
+                                             <nbsp></nbsp>
+                                             <span id="sea2" class="ramu"></span>
+                                        </span></div>
+                                   <div><span class="sea-rep">WIND DIRECTION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             <span id="sea3" class="ramu"></span></span></div>
+                                   <div><span class="sea-rep">WIND SPEED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             <span id="sea4" class="ramu"></span></span>
+                                   </div>
+                                   <div><span class="sea-rep"> TEMPRATURE
+                                             (°C) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             <span id="sea5" class="ramu"></span></span></div>
+                                   <div><span class="sea-rep"> TEMPRATURE
+                                             (°F)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                             <span id="sea6" class="ramu"></span></span></div>
+
+                              </div>
+                         </div>
+                    </div>
+                    <div class="content1">
+                         <div class="forecast" id="d1">
+                              <h3 class="dayy" id="day1">TUESDAY</h3>
+                              <div class="bkl"><img src="suuny.png" width="120px" id="dyi1"></div>
+                              <p class="cur-dy se" id="su1">Sunny</p>
+                              <span class="temp" id="temp1"> 22°C</span>
+                              <span class="temp-f" id="temp-f1"> 22.0°F
+                              </span>
+
+
+
+                         </div>
+                         <div class="forecast" id="d2">
+                              <h3 class="dayy" id="day2">WEDNESDAY</h3>
+                              <div class="bkl"><img src="suuny.png" width="120px" id="dyi2"></div>
+                              <p class="cur-dy se" id="su2">Sunny</p>
+                              <span class="temp" id="temp2"> 22°C</span>
+                              <span class="temp-f" id="temp-f2"> 22.0°F
+                              </span>
+
+                         </div>
+                         <div class="forecast" id="d3">
+                              <h3 class="dayy" id="day3">THURSDAY</h3>
+                              <div class="bkl"><img src="suuny.png" width="120px" id="dyi3"> </div>
+                              <p class="cur-dy se" id="su3">Sunny</p>
+                              <span class="temp" id="temp3"> 22°C</span>
+                              <span class="temp-f" id="temp-f3"> 22.0°F
+                              </span>
+
+
+                         </div>
+                         <div class="forecast" id="d4">
+                              <h3 class="dayy" id="day4">FRIDAY</h3>
+                              <div class="bkl"><img src="suuny.png" width="120px" id="dyi4"></div>
+                              <p class="cur-dy se" id="su4">Sunny</p>
+                              <span class="temp" id="temp4"> 22°C</span>
+                              <span class="temp-f" id="temp-f4"> 22.0°F
+                              </span>
+
+                         </div>
+                         <div class="forecast billu" id="d5">
+                              <h3 class="dayy" id="day5">SATURDAY</h3>
+                              <div class="bkl"><img src="suuny.png" width="120px" id="dyi5"></div>
+                              <p class="cur-dy se" id="su5">Sunny</p>
+                              <span class="temp" id="temp5"> 22°C</span>
+                              <span class="temp-f" id="temp-f5"> 22.0°F
+                              </span>
+
+
+                         </div>
+                    </div>
+
+               </div>
+
+
+
+          </div>
+
+
+     </main>
+     <script src="script.js"></script>
+</body>
+
+</html>

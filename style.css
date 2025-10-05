@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: linear-gradient(
+    -360deg,
+    rgb(149, 180, 238),
+    rgb(120, 167, 174),
+    rgb(119, 195, 179)
+  );
+}
+
+.nav {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.srch {
+  width: 550px;
+  height: 44px;
+  border-radius: 15px 0px 0px 15px;
+  padding: 20px;
+  background: rgb(48, 49, 52);
+  color: #e8eaed;
+  border: none;
+  font: 18px, arial, sans-serif;
+  outline: none;
+}
+
+.btn {
+  width: 44px;
+  height: 44px;
+  background: rgb(48, 49, 52);
+  border: none;
+  outline: none;
+  color: rgb(138, 180, 248);
+  display: block;
+  align-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(
+    rgb(61, 93, 152),
+    rgb(34, 87, 108),
+    rgb(53, 127, 112)
+  );
+  border-radius: 15px;
+}
+
+.main-container {
+  width: 100%;
+  height: 82vh;
+  position: relative;
+  /*background-color: rgb(21, 21, 21, 0.3);*/
+  padding-top: -5px;
+  display: none;
+}
+
+.content {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.report {
+  width: 49%;
+  height: 98%;
+  background: rgb(10, 10, 10, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.for-report {
+  width: 49%;
+  height: 98%;
+  background: rgb(10, 10, 10, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.billu {
+  border: none;
+}
+
+.img {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.icon {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+  margin-left: -10px;
+  
+}
+
+.dy {
+  min-width: 120px;
+  height: 70px;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+  align-content: center;
+  justify-content: center;
+}
+.day {
+  color: white;
+  font-size: 31px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.cur-dy {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.curr-temp {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+  align-content: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.ram{left : -5px;
+      margin-top :20px }
+
+.temp {
+  font-size: 30px;
+}
+
+.hum {
+  min-width: 150px;
+  height: 80px;
+  position: absolute;
+  right: 7px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#humidity {
+  font-size: 20px;
+}
+
+.sea-report {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.sea-report div{width: 90%;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid white;}
+
+
+
+.content1 {
+  width: 100%;
+  height: 38vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgb(10, 10, 10, 0.2);
+}
+
+
+.forecast {
+  width: 19%;
+  height: 95%;
+  border-right: 2px solid rgb(243, 240, 240, 0.5);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(194, 235, 243, 0.3);
+  text-align: center;
+  border-radius: 8px;
+  transition: 1s ease-in-out;
+}
+
+.forecast:hover {
+  width: 1200px;
+scale: 1.1;
+width: 95%;
+
+         }
+
+.dayy {
+  border: none;
+}
+
+.bkl {
+  min-width: 120px;
+  height: 200px;
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: -25px;
+
+
+}
+
+.temp{color: rgb(251, 251, 251);}
+.temp-f{color: white;}
+
+.bkl img{cursor: pointer;
+        margin-top: -15px;}
+
+.se{
+      color:rgb(223, 226, 43) ;}
+
+#temp1, #temp2 , #temp3, #temp4, #temp5{margin-top: 5px;
+      }
