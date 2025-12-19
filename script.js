@@ -1,6 +1,6 @@
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/forecast?units=metric&q=";
-const apiKey = "4ceda50fd680cf0a981b3389dd7d4a9b";
+  "add api url";
+const apiKey = "Add your api key";
 const searchBtn = document.querySelector(".btn");
 const cityName = document.querySelector(".srch");
 const weatherIcon = document.querySelector(".icon");
